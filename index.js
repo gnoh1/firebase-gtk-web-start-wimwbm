@@ -44,10 +44,6 @@ async function main() {
     messagingSenderId: 'random-unique-string',
     appId: 'random-unique-string',
   };
-
-  // Initialize Firebase
-  const firebaseConfig = {};
-
   // initializeApp(firebaseConfig);
   initializeApp(firebaseConfig);
   auth = getAuth();
